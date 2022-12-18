@@ -1,12 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {
-  ActivityIndicator,
-  FlatList,
-  View,
-  Text,
-  TouchableOpacity,
-} from 'react-native';
-// Import getNews from news.js
+import {FlatList, View, Text} from 'react-native';
 import {getNews} from '../helpers/apis';
 import Article from '../components/articles';
 import styles from './styles';
